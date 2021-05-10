@@ -1,0 +1,16 @@
+ .highlight{
+    background-color:red;
+ }
+
+/* @keyframes highlight {
+    0% {
+        background: #ffff99; 
+    }
+    100% {
+        background: none;
+    }
+}
+
+.highlight {
+    animation: highlight 2s;
+} */
