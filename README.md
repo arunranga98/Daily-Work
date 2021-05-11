@@ -9,7 +9,7 @@ Jquery Practise
 *** DAY 2 (MAY 10 2021) MONDAY ***
 
 JQuery Handson
-Bootstrao Introduction
+Bootstrap Introduction
 Bootstrap till chapter 2(practise)
 
 
