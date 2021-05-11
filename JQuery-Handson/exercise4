@@ -1,0 +1,4 @@
+1. Alter the code that introduces the "back to top" links, so that the links only appear after the fourth paragraph.
+2. When a "back to top" link is clicked on, add a new paragraph after the link containing the message "You were here". Ensure that the link still works.
+
+3. On a subsequent click of the bolded author's name, remove the <b> element that was added (thereby toggling between bold and normal text).
