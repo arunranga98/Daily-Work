@@ -8,7 +8,7 @@ Jquery Practise
 
 *** DAY 2 (MAY 10 2021) ***
 
-JQuery Handson(not yet completed)
+JQuery Handson
 Bootstrap till chapter 2(practise)
 
 
