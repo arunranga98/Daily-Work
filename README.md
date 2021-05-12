@@ -15,7 +15,8 @@ Bootstrap till chapter 2(practise)
 
 *** DAY 3 (MAY 11 2021) TUESDAY ***
 
-Bootstrap completed till chapter 3&4
+Bootstrap Chapter 3&4 completed
+Bootstrap Chapter 5 completed
 
 
 
