@@ -24,5 +24,6 @@ Strated learning Angular course in UDEMY
 
 *** DAY 5 (MAY 14 2021) FRIDAY ***
 
+Learned TypeScript
 Created a simple project in Angular
 Learned about Structure of the Angular Files
