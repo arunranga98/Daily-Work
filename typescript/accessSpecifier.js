@@ -15,7 +15,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 var Product = /** @class */ (function () {
     function Product(name, price) {
-        this.na = 'Priya'; //CANNOT MODIFY VARIABLE THAT IS READONLY
+        this.na = 'Arun'; //CANNOT MODIFY VARIABLE THAT IS READONLY
         this.price = 20;
         this.name = name;
         this.price = price;
