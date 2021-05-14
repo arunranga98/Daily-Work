@@ -1,5 +1,5 @@
 class Product{
-    readonly na='Priya';//CANNOT MODIFY VARIABLE THAT IS READONLY
+    readonly na='Arun';//CANNOT MODIFY VARIABLE THAT IS READONLY
     protected name:string;
     protected price=20;
     constructor(name: string,price: number){
