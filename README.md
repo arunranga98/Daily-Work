@@ -43,6 +43,7 @@ Angular Services
 
 Reactive Angular forms
 RouterLinks
+To store and retrive data from the server(using JSON)
 
 *** DAY 9 (MAY 19 2021) WEDNESDAY ***
 
