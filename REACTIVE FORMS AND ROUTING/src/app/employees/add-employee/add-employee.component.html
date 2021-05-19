@@ -1,0 +1,63 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+          <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+              <div class="form-group">
+                <label for="id">Employee ID</label>
+                <input type="text" id="id" class="form-control" formControlName="id" />
+                <span class="errors" *ngIf="!signupForm.get('id').valid && signupForm.get('id').touched">
+                    Enter a Valid ID
+                </span>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="form-control" formControlName="password"/>
+                <span class="errors" *ngIf="!signupForm.get('password').valid && signupForm.get('password').touched">
+                    Enter a Valid password
+                </span>
+              </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" formControlName="name" />
+                <span class="errors" *ngIf="!signupForm.get('name').valid && signupForm.get('name').touched">
+                    Enter a Valid name
+                </span>
+              </div>
+
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" class="form-control" formControlName="address"/>
+                <span class="errors" *ngIf="!signupForm.get('address').valid && signupForm.get('address').touched">
+                    Enter a Valid address
+                </span>
+              </div>
+
+              <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" class="form-control" formControlName="age"/>
+                <span class="errors" *ngIf="!signupForm.get('age').valid && signupForm.get('age').touched">
+                    Enter a Valid age
+                </span>
+              </div>
+
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" class="form-control" formControlName="company"/>
+                <span class="errors" *ngIf="!signupForm.get('company').valid && signupForm.get('company').touched">
+                    Enter a Valid company
+                </span>
+              </div>
+              <br>
+            
+              <div>
+                 <button class="btn btn-success" [disabled]="!signupForm.valid"> REGISTER </button>
+                </div>
+
+          </form>  
+        
+        </div>
+
+    </div>
+</div>
