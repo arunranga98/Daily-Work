@@ -47,6 +47,11 @@ To store and retrive data from the server(using JSON)
 
 *** DAY 9 (MAY 19 2021) WEDNESDAY ***
 
+Employee Project Completed (with all CURD operations)
+Task - Created a new UserService project (ANGULAR
+FrontEnd-AngularJS
+Backend-Java SpringBoot
+
 
 
 
