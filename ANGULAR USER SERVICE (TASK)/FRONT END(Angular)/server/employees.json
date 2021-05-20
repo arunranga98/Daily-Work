@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "password": "password",
+      "name": "Arun",
+      "address": "Erode",
+      "age": 22,
+      "company": "CTS"
+    },
+    {
+      "id": 102,
+      "password": "123",
+      "name": "Dinesh BD",
+      "address": "Chennai",
+      "age": 22,
+      "company": "Google"
+    },
+    {
+      "id": 103,
+      "password": "password12",
+      "name": "Ranjith",
+      "address": "Tirppur",
+      "age": 26,
+      "company": "FB"
+    },
+    {
+      "id": 104,
+      "password": "password123",
+      "name": "Ajay",
+      "address": "Ooty",
+      "age": 22,
+      "company": "CTS"
+    },
+    {
+      "id": 105,
+      "password": "pass",
+      "name": "Dilip",
+      "address": "Madurai",
+      "age": 29,
+      "company": "HCL"
+    },
+    {
+      "id": "106",
+      "password": "password1234",
+      "name": "Ajaysuriya",
+      "address": "Karur",
+      "age": 25,
+      "company": "Accenture"
+    },
+    {
+      "id": "107",
+      "password": "ANYTHING",
+      "name": "Aakash",
+      "address": "Tiruppur",
+      "age": 26,
+      "company": "DELL"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<div class="container pt-2">
+    <table class="table table-striped">
+        <thead>
+            <caption>USER DETAILS</caption>
+            <tr>
+                <td>Id</td>
+                <td>UserName</td>
+                <td>password</td>
+                <td>Address</td>
+                <td>Phone</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of user">
+                <td>{{user.id}}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.password}}</td>
+                <td>{{user.address}}</td>
+                <td>{{user.phone}}</td>
+                <td>
+                    <button class="btn btn-primary" (click)="updateUser(user)">UPDATE</button> ||
+                    <button class="btn btn-danger" (click)="deleteUser(user)">DELETE</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-success">Success</button>
+</div>
+
+      
+    

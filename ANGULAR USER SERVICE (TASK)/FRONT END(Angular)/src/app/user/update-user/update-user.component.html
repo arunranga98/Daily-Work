@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+            <form [formGroup]="updateForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label for="id">Employee id</label>
+                    <input type="text" id="id" class="form-control" formControlName="id" readonly/>
+                    <span class="errors" *ngIf="!updateForm.get('id').valid && updateForm.get('id').touched">Enter a valid Id</span>
+                </div>
+                <div class="form-group">
+                    <label for="username">Employee UserName</label>
+                    <input type="text" id="username" class="form-control" formControlName="username" />
+                    <span class="errors" *ngIf="!updateForm.get('username').valid && updateForm.get('username').touched">Enter a Valid name</span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Employee password</label>
+                    <input type="password" id="password" class="form-control" formControlName="password" />
+                    <span class="errors" *ngIf="!updateForm.get('password').valid && updateForm.get('password').touched">Enter a Valid password</span>
+                </div>
+                <div class="form-group">
+                    <label for="address">Employee Address</label>
+                    <input type="text" id="address" class="form-control" formControlName="address" />
+                    <span class="errors" *ngIf="!updateForm.get('address').valid && updateForm.get('address').touched">Enter a Valid Address</span>
+                </div>
+                <div class="form-group">
+                    <label for="address">Employee Phone</label>
+                    <input type="text" id="phone" class="form-control" formControlName="phone" />
+                    <span class="errors" *ngIf="!updateForm.get('phone').valid && updateForm.get('phone').touched">Enter a Valid Phone</span>
+                </div>
+               <br>
+                <div class="form-group">
+                    <button class="btn btn-success" [disabled]="!updateForm.valid">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
