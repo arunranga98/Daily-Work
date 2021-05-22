@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h3>Understanding Component Binding in Angular!</h3>
+      
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <app-game-control (increamentOnEachInterval)= "OnincreamentOnEachInterval($event)"></app-game-control>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <app-odd *ngFor= "let oddNumber of oddNums" [oddNum]="oddNumber">
+
+    </app-odd>
+    <app-even *ngFor= "let evenNumber of evenNums" [evenNum]="evenNumber">
+
+    </app-even>
+  </div>
+</div>
+
+</div>
