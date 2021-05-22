@@ -54,6 +54,18 @@ Backend-Java SpringBoot
 
 *** DAY 10 (MAY 20 2021) THURSDAY ***
 
+Introduction to microservices
+Netflix Case study
+
+*** DAY 11 (MAY 21 2021) THURSDAY ***
+
+Udemy videos on microservices
+Handson on AngularJS
+
+
+
+
+
 
 
 
