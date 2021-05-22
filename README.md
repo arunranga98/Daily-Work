@@ -60,7 +60,7 @@ Netflix Case study
 *** DAY 11 (MAY 21 2021) THURSDAY ***
 
 Udemy videos on microservices
-Handson on AngularJS
+Handson on AngularJS(GAME HANDSON)
 
 
 
