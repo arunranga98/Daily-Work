@@ -57,21 +57,23 @@ Backend-Java SpringBoot
 Introduction to microservices
 Netflix Case study
 
-*** DAY 11 (MAY 21 2021) THURSDAY ***
+*** DAY 11 (MAY 21 2021) FRIDAY ***
 
 Udemy videos on microservices
 Handson on AngularJS(GAME HANDSON)
 
-*** DAY 12 (MAY 22 2021) THURSDAY ***
+*** DAY 12 (MAY 22 2021) SATURDAY ***
 
 Microservices Udemy v1-upto step 21 Congigured limitService with spring cloud config with github local repository 
 created 3 services names currencyCoversionService,currencyExchangeService,limitsService.
 Folder-Microservices V1
 
-*** DAY 13 (MAY 24 2021) THURSDAY ***
+*** DAY 13 (MAY 24 2021) MONDAY ***
 
 Microservices Udemy videos Version 2 from step 19 to step 29
 Folder- Microservices V2
+
+*** DAY 14 (MAY 25 2021) TUESDAY ***
 
 
 
